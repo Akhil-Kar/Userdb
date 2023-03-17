@@ -17,4 +17,4 @@ This is User Database Project
     username - "admin"
     password - "admin"
 
-5. In the bulk upload page use "user_detail.csv" file
+5. In the bulk upload page use "user_details.csv" file
