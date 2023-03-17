@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+			margin: 0;
+			padding: 0;
+		}
+		table, td {
+  			border: 1px solid;
+			padding: 10px;
+			margin: 10px;
+		}
+		table {
+			border-collapse: collapse;
+		}
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Name : </td>
+            <td>{{user.admin.first_name}} {{user.admin.last_name}}</td>
+        </tr>
+        <tr>
+            <td>Username : </td>
+            <td>{{user.admin.username}}</td>
+        </tr>
+        <tr>
+            <td>Email : </td>
+            <td>{{user.admin.email}}</td>
+        </tr>
+        <tr>
+            <td>Address : </td>
+            <td>{{user.address}}</td>
+        </tr><tr>
+            <td>Gender : </td>
+            <td>{{user.gender}}</td>
+        </tr>
+        <tr>
+            <td>Contact No. : </td>
+            <td>{{user.cantact_num}}</td>
+        </tr>
+        <tr>
+            <td>Last Login : </td>
+            <td>{{user.admin.last_login}}</td>
+        </tr>
+        <tr>
+            <td>Date Joined : </td>
+            <td>{{user.admin.date_joined}}</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <a href="/logout/"><button style="padding: 10px;margin: 10px;">Logout</button></a>
+</body>
+</html>
